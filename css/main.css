@@ -24,7 +24,7 @@
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background: rgba(255,255,255,1);
+	background: #1f1f1f;
 	z-index: 999999;
 	opacity: 1;
 	text-align:center;
@@ -143,10 +143,10 @@
   margin: 0 auto;
   width: 15%;
   height: 15%;
-  background-color: #375be4;
+  background-color: #d9b06a;
   border-radius: 100%;
   -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
-          animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+  animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
 }
 .sk-circle .sk-circle2 {
   -webkit-transform: rotate(30deg);

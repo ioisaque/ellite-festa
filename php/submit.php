@@ -3,7 +3,7 @@
 
 // specify your email here
 
-$to = 'adnanarf@gmail.com';
+$to = 'isaquecostaa@gmail.com';
 
 
 
@@ -28,15 +28,10 @@ $to = 'adnanarf@gmail.com';
 
 	$mail_sent = mail($to, $subject, $body_message, $headers);
 
-	if ($mail_sent == true){ ?>
-<script language="javascript" type="text/javascript">
-		window.alert("Sent Successfuly.");
-		</script>
-<?php } else { ?>
-<script language="javascript" type="text/javascript">
-                    window.alert("Error! Please Try Again Later.");
-                </script>
-<?php
+	if ($mail_sent == true){
+		echo "Obrigado. Retornaremos em breve!";
+	} else {
+		echo "Error: Por favor, tente novamente mais tarde.";
 	} // End else
     
 ?>

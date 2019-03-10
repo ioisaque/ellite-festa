@@ -114,7 +114,7 @@
                 data-elementdelay="0.07" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 5; font-size:170px; font-weight:900; text-align:center; letter-spacing:-10px; line-height:60px; color:#375be4; max-width: auto; max-height: auto; white-space: nowrap;">Ellite Festa</div>
+                style="z-index: 5; font-size:170px; font-weight:900; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; text-align:center; letter-spacing:-10px; line-height:60px; color:#375be4; max-width: auto; max-height: auto; white-space: nowrap;">Ellite Festa</div>
             
             <!-- LAYER NR. 2 -->
             <div class="tp-caption sfb tp-resizeme" 
@@ -128,7 +128,7 @@
                 data-elementdelay="0.1" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 6; font-size:46px; color:#000; text-align:center; font-weight:400; max-width: auto; max-height: auto; white-space: nowrap;"> Nós fazemos os seus sonhos, realidade! </div>
+                style="z-index: 6; font-size:46px; color:#1f1f1f; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; text-align:center; font-weight:400; max-width: auto; max-height: auto; white-space: nowrap;"> Nós fazemos os seus sonhos, realidade! </div>
           </li>
           <!-- SLIDE  -->
           <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
@@ -148,7 +148,7 @@
                 data-elementdelay="0.06" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300"
-                style="z-index: 5; max-width: auto; font-weight:900; font-size:120px; letter-spacing:-5px; color:#222; max-height: auto; white-space: nowrap;">Nós entregamos </div>
+                style="z-index: 5; max-width: auto; font-weight:900; font-size:120px; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; letter-spacing:-5px; color:#222; max-height: auto; white-space: nowrap;">Nós entregamos </div>
             
             <!-- LAYER NR. 2 -->
             <div class="tp-caption sfl tp-resizeme text-color-primary" 
@@ -176,7 +176,7 @@
                 data-elementdelay="0.1" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 7; font-size:28px; color:#000; max-width: auto; max-height: auto; white-space: nowrap;">Ideias - Desafios - Inovação </div>
+                style="z-index: 7; font-size:28px; color:#1f1f1f; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; max-width: auto; max-height: auto; white-space: nowrap;">Ideias - Desafios - Inovação </div>
           </li>
           <!-- SLIDE  -->
           <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
@@ -196,7 +196,7 @@
                 data-elementdelay="0.07" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 5; font-size:90px; font-weight:900; text-align:center; line-height:60px; max-width: auto; max-height: auto; white-space: nowrap;">Ellite Festa</div>
+                style="z-index: 5; font-size:90px; font-weight:900; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; text-align:center; line-height:60px; max-width: auto; max-height: auto; white-space: nowrap;">Ellite Festa</div>
             
             <!-- LAYER NR. 2 -->
             <div class="tp-caption sfb tp-resizeme" 
@@ -210,7 +210,7 @@
                 data-elementdelay="0.1" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 6; font-size:28px; color:#000; text-align:center; line-height:38px; max-width: auto; max-height: auto; white-space: nowrap;">Para quem não aceita nada menos do que o que O MELHOR. </div>
+                style="z-index: 6; font-size:28px; color:#1f1f1f; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; text-align:center; line-height:38px; max-width: auto; max-height: auto; white-space: nowrap;">Para quem não aceita nada menos do que o que O MELHOR. </div>
           </li>
         </ul>
       </div>
@@ -218,10 +218,10 @@
   </section>
   
   <!-- Content -->
-  <div id="content"> 
-    
+  <div id="content">
+
     <!-- SERVICES -->
-    <section id="ser" class=" padding-100 padding-bottom-20"> 
+    <section id="ser" class="padding-top-50 padding-bottom-50"> 
       <!-- HEADING -->
       <!-- <div class="heading-block text-center margin-bottom-100">
         <h2>Nossos diferenciais</h2>
@@ -256,13 +256,192 @@
         </li>
       </ul>
     </section>
+
+    <!-- ABOUT -->
+    <section class="about"> 
+      
+      <!-- Right Background -->
+      <div class="main-page-section half_left_layout">
+        <div class="main-half-layout half_right_layout"> </div>
+        
+        <!-- Left Content -->
+        <div class="main-half-layout-container half_right_layout">
+          <div class="about-us-con">
+            <h3>Fatos Sobre Nós</h3>
+            <p>Sabe aquele detalhe que geralmente passa despercebido e que você só lembra quando já virou um problema logo encima da hora?<br> Pois é, deixa com a gente!</p>
+            
+            <!-- About Content -->
+            <div class="panel-group accordion padding-top-20" id="accordion"> 
+              
+              <!-- According 1 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> Neque porro quisquam est, qui dolorem ipsum</a> </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- According 2 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed"> Sed quia non numquam eius modi tempora incidunt</a> </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- According 3 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed"> Vel illum qui dolorem eum fugiat quo voluptas</a> </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- According 4 -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour" class="collapsed"> Neque porro quisquam est, qui dolorem ipsum</a> </h4>
+                </div>
+                <div id="collapsefour" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fatos sobre Nós -->
+    <section class="dark our-banafits padding-top-100 padding-bottom-100">
+      <div class="container">
+        
+        <!-- Counter -->
+        <div class="counters nolist-style">
+          <ul class="row">
+            
+            <!-- PROPOSALS SENT -->
+            <li class="col-sm-3"> <i class="icon-wine"></i> <span class="counter" >100</span><span>+</span>
+              <p class="text-white">Eventos Realizados</p>
+            </li>
+            <!-- PROPOSALS SENT -->
+            <li class="col-sm-3"> <i class="icon-clock"></i> <span class="counter">3</span> ANOS
+              <p class="text-white">de mercado</p>
+            </li>
+            <!-- AWARDS WON -->
+            <li class="col-sm-3"> <i class="icon-briefcase"></i> <span class="counter">180</span><span>+</span>
+              <p class="text-white">Fornecedores</p>
+            </li>
+            <li class="col-sm-3"> <i class="icon-map"></i> <span class="counter">25</span><span>+</span>
+              <p class="text-white">Cidades</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Nossa Equipe -->
+    <section id="team" class="our-team padding-top-100 padding-bottom-100">
+      <div class="container">
+        <div class="heading-block text-center margin-bottom-100">
+          <h2>Nossa Equipe</h2>
+          <hr>
+        </div>
+        
+        <!-- TEAM -->
+        <div class="team-slide with-nav middle-nav"> 
+          
+          <!-- Member -->
+          <div class="item">
+            <article> 
+              <!-- abatar -->
+              <div class="avatar"> <img class="img-responsive" src="images/equipe/img-1.jpg" alt="" > 
+                <!-- Team hover -->
+                <div class="team-hover">
+                  <div class="position-center-center">
+                    <h6>MARIA LUKIA</h6>
+                    <p>Products Manager</p>
+                    <div class="social-icons"> <a href="#."><i class="fa fa-instagram"></i></a> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+          <!-- Member -->
+          <div class="item">
+            <article> 
+              <!-- abatar -->
+              <div class="avatar"> <img class="img-responsive" src="images/equipe/img-2.jpg" alt="" > 
+                <!-- Team hover -->
+                <div class="team-hover">
+                  <div class="position-center-center">
+                    <h6>MARIA LUKIA</h6>
+                    <p>Products Manager</p>
+                    <div class="social-icons"> <a href="#."><i class="fa fa-instagram"></i></a> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+          <!-- Member -->
+          <div class="item">
+            <article> 
+              <!-- abatar -->
+              <div class="avatar"> <img class="img-responsive" src="images/equipe/img-3.jpg" alt="" > 
+                <!-- Team hover -->
+                <div class="team-hover">
+                  <div class="position-center-center">
+                    <h6>MARIA LUKIA</h6>
+                    <p>Products Manager</p>
+                    <div class="social-icons"> <a href="#."><i class="fa fa-instagram"></i></a> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+          <!-- Member -->
+          <div class="item">
+            <article> 
+              <!-- abatar -->
+              <div class="avatar"> <img class="img-responsive" src="images/equipe/img-4.jpg" alt="" > 
+                <!-- Team hover -->
+                <div class="team-hover">
+                  <div class="position-center-center">
+                    <h6>MARIA LUKIA</h6>
+                    <p>Products Manager</p>
+                    <div class="social-icons"> <a href="#."><i class="fa fa-instagram"></i></a> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
     
     <!-- Portfolio -->
-    <section id="wrk" class="portfolio">
+    <section id="wrk" class="portfolio padding-bottom-100">
       <div class="container"> 
         <!-- Heading Block -->
         <div class="heading-block text-center margin-bottom-100">
-          <h2>Eventos</h2>
+          <h2>Galeria de Eventos</h2>
           <hr>
         </div>
       </div>
@@ -301,7 +480,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h6><a href="ajax-work/project1.html" class="cbp-singlePage">65/48/2045</a> <span>Rebecca & Isaque</span> <a href="images/portfolio/img-1.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h6>
+                      <h4 class="text-white">65/48/2045 <span>Rebecca & Isaque</span> <a href="images/portfolio/img-1.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
                     </div>
                   </div>
                 </div>
@@ -318,7 +497,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h6><a href="ajax-work/project2.html" class="cbp-singlePage">65/48/2045</a> <span>Allan & Luiza</span> <a href="images/portfolio/img-2.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h6>
+                      <h4 class="text-white">65/48/2045<span>Allan & Luiza</span> <a href="images/portfolio/img-2.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
                     </div>
                   </div>
                 </div>
@@ -335,7 +514,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h6><a href="ajax-work/project3.html" class="cbp-singlePage">65/48/2045</a> <span>Rebecca & Isaque</span> <a href="images/portfolio/img-3.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h6>
+                      <h4 class="text-white">65/48/2045 <span>Rebecca & Isaque</span> <a href="images/portfolio/img-3.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
                     </div>
                   </div>
                 </div>
@@ -352,7 +531,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h6><a href="ajax-work/project4.html" class="cbp-singlePage">65/48/2045</a> <span>Allan & Luiza</span> <a href="images/portfolio/img-8.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h6>
+                      <h4 class="text-white">65/48/2045 <span>Allan & Luiza</span> <a href="images/portfolio/img-8.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
                     </div>
                   </div>
                 </div>
@@ -369,7 +548,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h6><a href="ajax-work/project5.html" class="cbp-singlePage">65/48/2045</a> <span>Hugo & Alice</span> <a href="images/portfolio/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h6>
+                      <h4 class="text-white">65/48/2045 <span>Hugo & Alice</span> <a href="images/portfolio/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
                     </div>
                   </div>
                 </div>
@@ -386,7 +565,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h6><a href="ajax-work/project7.html" class="cbp-singlePage">65/48/2045</a> <span>Yuri & Mariza</span> <a href="images/portfolio/img-7.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h6>
+                      <h4 class="text-white">65/48/2045 <span>Yuri & Mariza</span> <a href="images/portfolio/img-7.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
                     </div>
                   </div>
                 </div>
@@ -403,7 +582,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h6><a href="ajax-work/project7.html" class="cbp-singlePage">65/48/2045</a> <span>Yuri & Mariza</span> <a href="images/portfolio/img-7.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h6>
+                      <h4 class="text-white">65/48/2045 <span>Yuri & Mariza</span> <a href="images/portfolio/img-7.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
                     </div>
                   </div>
                 </div>
@@ -420,7 +599,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h6><a href="ajax-work/project5.html" class="cbp-singlePage">65/48/2045</a> <span>Hugo & Alice</span> <a href="images/portfolio/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h6>
+                      <h4 class="text-white">65/48/2045 <span>Hugo & Alice</span> <a href="images/portfolio/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
                     </div>
                   </div>
                 </div>
@@ -435,9 +614,54 @@
         </div>
       </div>
     </section>
+
+    <!-- Testimonial -->
+    <section class="dark testimonial padding-bottom-60 padding-top-100">
+      <div class="container"> 
+        <!-- Heading Block -->
+        <div class="heading-block text-center margin-bottom-100">
+          <h2>O que nossos clientes dizem ?</h2>
+          <hr>
+        </div>
+        
+        <!-- Slider -->
+        <div id="testi-slide"> 
+          <!-- Slide -->
+          <div class="item"> 
+            <!-- avatar --> 
+            <i class="icon-profile-male"></i>
+            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra.</p>
+            <h6>Adnan Arif</h6>
+            <span>CEO Webicode</span> </div>
+          
+          <!-- Slide -->
+          <div class="item"> 
+            <!-- avatar --> 
+            <i class="icon-profile-male"></i>
+            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra. </p>
+            <h6>Jennifer Aniston</h6>
+            <span>Web Designer</span> </div>
+          
+          <!-- Slide -->
+          <div class="item"> 
+            <!-- avatar --> 
+            <i class="icon-profile-male"></i>
+            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra. </p>
+            <h6>Adnan Arif</h6>
+            <span>Front End Developer</span> </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Let’s talk  -->
+    <section class="let-talk-sec" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <h1>Vamos conversar sobre o seu grande dia!</h1>
+        <a href="https://api.whatsapp.com/send?phone=5531992941447&text=Ol%C3%A1%2c%20gostaria%20de%20conhecer%20mais%20sobre%20os%20seus%20servi%C3%A7os!" target="_blank" class="btn margin-top-50">ABRIR O WHATSAPP</a> </div>
+    </section>
     
     <!-- Nosso Aplicativo -->
-    <section class="studio-intro padding-top-100">
+    <section class="studio-intro padding-top-100 padding-bottom-100">
       <div class="container">
         <div class="row"> 
           
@@ -497,250 +721,27 @@
       </div>
     </section>
     
-    <!-- Fatos sobre Nós -->
-    <section class="our-banafits padding-top-100 padding-bottom-100">
-      <div class="container"> 
-        <!-- Heading Block -->
-        <div class="heading-block text-center margin-bottom-100">
-          <h2>Fatos sobre Nós</h2>
-          <hr>
-        </div>
-        
-        <!-- Counter -->
-        <div class="counters nolist-style">
-          <ul class="row">
-            
-            <!-- PROPOSALS SENT -->
-            <li class="col-sm-3"> <i class="icon-wine"></i> <span class="counter" >100</span><span>+</span>
-              <p>Eventos Realizados</p>
-            </li>
-            <!-- PROPOSALS SENT -->
-            <li class="col-sm-3"> <i class="icon-clock"></i> <span class="counter">3</span> ANOS
-              <p>de mercado</p>
-            </li>
-            <!-- AWARDS WON -->
-            <li class="col-sm-3"> <i class="icon-briefcase"></i> <span class="counter">180</span><span>+</span>
-              <p>Fornecedores</p>
-            </li>
-            <li class="col-sm-3"> <i class="icon-map"></i> <span class="counter">25</span><span>+</span>
-              <p>Cidades</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    
-    <!-- ABOUT -->
-    <section class="about"> 
-      
-      <!-- Right Background -->
-      <div class="main-page-section half_left_layout">
-        <div class="main-half-layout half_right_layout"> </div>
-        
-        <!-- Left Content -->
-        <div class="main-half-layout-container half_right_layout">
-          <div class="about-us-con">
-            <h3>Nossa Missão</h3>
-            <p>Sabe aquele detalhe que geralmente passa despercebido e que você só lembra quando já virou um problema logo encima da hora?<br> Pois é, deixa com a gente!</p>
-            
-            <!-- About Content -->
-            <div class="panel-group accordion padding-top-20" id="accordion"> 
-              
-              <!-- According 1 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> Neque porro quisquam est, qui dolorem ipsum</a> </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
-                  <div class="panel-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- According 2 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed"> Sed quia non numquam eius modi tempora incidunt</a> </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- According 3 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed"> Vel illum qui dolorem eum fugiat quo voluptas</a> </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- According 4 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour" class="collapsed"> Neque porro quisquam est, qui dolorem ipsum</a> </h4>
-                </div>
-                <div id="collapsefour" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- OUR TEAM -->
-    <section id="team" class="our-team padding-top-100 padding-bottom-100">
-      <div class="container">
-        <div class="heading-block text-center margin-bottom-100">
-          <h2>Nossa Equipe</h2>
-          <hr>
-        </div>
-        
-        <!-- TEAM -->
-        <div class="team-slide with-nav middle-nav"> 
-          
-          <!-- Member -->
-          <div class="item">
-            <article> 
-              <!-- abatar -->
-              <div class="avatar"> <img class="img-responsive" src="images/team-4.jpg" alt="" > 
-                <!-- Team hover -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <h6>Yuri</h6>
-                    <p>CEO</p>
-                    <div class="social-icons"> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> <a href="#."><i class="fa fa-dribbble"></i></a> <a href="#."><i class="fa fa-google"></i></a> </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <!-- Member -->
-          <div class="item">
-            <article> 
-              <!-- abatar -->
-              <div class="avatar"> <img class="img-responsive" src="images/team-2.jpg" alt="" > 
-                <!-- Team hover -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <h6>MARIA LUKIA</h6>
-                    <p>Products Manager</p>
-                    <div class="social-icons"> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> <a href="#."><i class="fa fa-dribbble"></i></a> <a href="#."><i class="fa fa-google"></i></a> </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <!-- Member -->
-          <div class="item">
-            <article> 
-              <!-- abatar -->
-              <div class="avatar"> <img class="img-responsive" src="images/team-3.jpg" alt="" > 
-                <!-- Team hover -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <h6>MARIA LUKIA</h6>
-                    <p>Products Manager</p>
-                    <div class="social-icons"> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> <a href="#."><i class="fa fa-dribbble"></i></a> <a href="#."><i class="fa fa-google"></i></a> </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <!-- Member -->
-          <div class="item">
-            <article> 
-              <!-- abatar -->
-              <div class="avatar"> <img class="img-responsive" src="images/team-1.jpg" alt="" > 
-                <!-- Team hover -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <h6>MARIA LUKIA</h6>
-                    <p>Products Manager</p>
-                    <div class="social-icons"> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> <a href="#."><i class="fa fa-dribbble"></i></a> <a href="#."><i class="fa fa-google"></i></a> </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Let’s talk  -->
-    <section class="let-talk-sec" data-stellar-background-ratio="0.5">
-      <div class="container">
-        <h1>Vamos conversar sobre o seu grande dia!</h1>
-        <a href="#." class="btn margin-top-50">ENTRE EM CONTATO</a> </div>
-    </section>
-    
-    <!-- Testimonial -->
-    <section class="testimonial padding-bottom-60 padding-top-100">
-      <div class="container"> 
-        <!-- Heading Block -->
-        <div class="heading-block text-center margin-bottom-100">
-          <h2>O que nossos clientes dizem ?</h2>
-          <hr>
-        </div>
-        
-        <!-- Slider -->
-        <div id="testi-slide"> 
-          <!-- Slide -->
-          <div class="item"> 
-            <!-- avatar --> 
-            <i class="icon-profile-male"></i>
-            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra.</p>
-            <h6>Adnan Arif</h6>
-            <span>CEO Webicode</span> </div>
-          
-          <!-- Slide -->
-          <div class="item"> 
-            <!-- avatar --> 
-            <i class="icon-profile-male"></i>
-            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra. </p>
-            <h6>Jennifer Aniston</h6>
-            <span>Web Designer</span> </div>
-          
-          <!-- Slide -->
-          <div class="item"> 
-            <!-- avatar --> 
-            <i class="icon-profile-male"></i>
-            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra. </p>
-            <h6>Adnan Arif</h6>
-            <span>Front End Developer</span> </div>
-        </div>
-      </div>
-    </section>
-    
     <!-- Clients img -->
-    <section class="light-gry-bg clients-img padding-bottom-60">
+    <section class="light-gry-bg clients-img padding-top-100 padding-bottom-100">
       <div class="container">
+        <!-- Heading Block -->
+        <div class="heading-block text-center margin-bottom-40">
+          <h2>Nossos Fornecedores</h2>
+          <hr>
+        </div>
+
         <div class="clint-sli">
-          <div><img src="images/c-img-1.png" alt="" ></div>
-          <div><img src="images/c-img-2.png" alt="" ></div>
-          <div><img src="images/c-img-3.png" alt="" ></div>
-          <div><img src="images/c-img-4.png" alt="" ></div>
-          <div><img src="images/c-img-5.png" alt="" ></div>
+          <div><img src="images/fornecedores/img-1.png" alt="" ></div>
+          <div><img src="images/fornecedores/img-2.png" alt="" ></div>
+          <div><img src="images/fornecedores/img-3.png" alt="" ></div>
+          <div><img src="images/fornecedores/img-4.png" alt="" ></div>
+          <div><img src="images/fornecedores/img-5.png" alt="" ></div>
         </div>
       </div>
     </section>
     
     <!-- pricing -->
-    <section id="price" class="pricing style-2 padding-top-100  padding-bottom-80">
+    <section id="price" class="pricing dark style-2 padding-top-100  padding-bottom-80">
       <div class="container"> 
         
         <!-- Heading Block -->
@@ -859,13 +860,13 @@
               
               <!-- Social Icons -->
               <h6 class="margin-top-30">Segue lá!</h6>
-              <div class="social-icons"> <a href="#."><i class="icon-social-facebook"></i></a> <a href="#."><i class="icon-social-twitter"></i></a> <a href="#."><i class="icon-social-dribbble"></i></a> <a href="#."><i class="icon-social-tumblr"></i></a> </div>
+              <div class="social-icons"> <a href="https://instagram.com/ellitecerimonial" target="_blank"><i class="ion-social-instagram"></i></a> <a href="https://fb.com/ellitefestaeventos/" target="_blank"><i class="ion-social-facebook"></i></a> <a href="#." target="_blank"><i class="ion-social-twitter"></i></a> </div>
             </div>
             
-            <!-- Office Contacts -->
+            <!-- Contatos -->
             <div class="col-xs-6">
               <div class="office-info">
-                <h6>Office Contacts</h6>
+                <h6>Contatos</h6>
                 <p><i class="icon-call-in text-color-primary"></i> (31) 9 9294 1447</p>
                 <p><i class="icon-envelope text-color-primary"></i> contato@ellitefesta.com.br</p>
                 <p><i class="icon-global text-color-primary"></i> www.ellitefesta.com.br</p>
@@ -899,7 +900,7 @@
   <!-- LOADER -->
   <div id="loader">
     <div class="loader">
-      <div class="position-center-center"> <img src="images/logo-dark.png" alt="">
+      <div class="position-center-center"> <img src="images/logo.png" alt="">
         <div class="loading">
           <div class="sk-circle">
             <div class="sk-circle1 sk-child"></div>
