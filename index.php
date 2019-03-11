@@ -74,10 +74,11 @@
           <div class="position-center-center"> <a class="logo" href="index.html"><img src="images/logo.png" alt=""></a>
             <ul>
               <li class="scroll active"><a href="#hme">Início </a></li>
-              <li class="scroll"><a href="#ser">Serviços </a></li>
-              <li class="scroll"><a href="#wrk">Portfólio </a></li>
               <li class="scroll"><a href="#abt">Sobre </a> </li>
               <li class="scroll"><a href="#team">Equipe </a></li>
+              <li class="scroll"><a href="#wrk">Portfólio </a></li>
+              <li class="scroll"><a href="#test">Testemunhos </a></li>
+              <li class="scroll"><a href="#fnc">Fornecedores </a></li>
               <li class="scroll"><a href="#price">Planos </a></li>
               <li class="scroll"><a href="#contact">Contato</a></li>
             </ul>
@@ -103,32 +104,46 @@
             <!-- LAYERS --> 
             
             <!-- LAYER NR. 1 -->
-            <div class="tp-caption sft tp-resizeme text-color-primary" 
+            <div class="tp-caption sfr tp-resizeme text-color-primary" 
                 data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="-50" 
+                data-y="center" data-voffset="-200" 
                 data-speed="500" 
-                data-start="800" 
+                data-start="1000" 
+                data-easing="Power3.easeInOut" 
+                data-splitin="chars" 
+                data-splitout="none" 
+                data-elementdelay="0.06" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300"
+                style="z-index: 5; max-width: auto; font-weight:900; font-size:120px; letter-spacing:-5px; color:#222; max-height: auto; white-space: nowrap;">Nós fazemos </div>
+            
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption sfl tp-resizeme text-color-secondary" 
+                data-x="center" data-hoffset="0" 
+                data-y="center" data-voffset="-80" 
+                data-speed="500" 
+                data-start="1500" 
                 data-easing="Power3.easeInOut" 
                 data-splitin="chars" 
                 data-splitout="none" 
                 data-elementdelay="0.07" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 5; font-size:170px; font-weight:900; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; text-align:center; letter-spacing:-10px; line-height:60px; color:#375be4; max-width: auto; max-height: auto; white-space: nowrap;">Ellite Festa</div>
+                style="z-index: 6; max-width: auto; font-weight:900; font-size:140px; letter-spacing:-7px; max-height: auto; white-space: nowrap;">dos seus sonhos </div>
             
-            <!-- LAYER NR. 2 -->
-            <div class="tp-caption sfb tp-resizeme" 
+            <!-- LAYER NR. 3 -->
+            <div class="tp-caption sfb tp-resizeme text-color-primary" 
                 data-x="center" data-hoffset="0" 
                 data-y="center" data-voffset="50" 
-                data-speed="600" 
-                data-start="1300" 
+                data-speed="500" 
+                data-start="2300" 
                 data-easing="Power3.easeInOut" 
                 data-splitin="none" 
                 data-splitout="none" 
-                data-elementdelay="0.1" 
+                data-elementdelay="0.08" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 6; font-size:46px; color:#1f1f1f; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; text-align:center; font-weight:400; max-width: auto; max-height: auto; white-space: nowrap;"> Nós fazemos os seus sonhos, realidade! </div>
+                style="z-index: 7; max-width: auto; font-weight:900; font-size:120px; letter-spacing:-5px; color:#222; max-height: auto; white-space: nowrap;">uma Realidade! </div>
           </li>
           <!-- SLIDE  -->
           <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
@@ -137,7 +152,7 @@
             <!-- LAYERS --> 
             
             <!-- LAYER NR. 1 -->
-            <div class="tp-caption sfr tp-resizeme" 
+            <div class="tp-caption sfr tp-resizeme text-color-secondary"
                 data-x="center" data-hoffset="0" 
                 data-y="center" data-voffset="-100" 
                 data-speed="500" 
@@ -148,7 +163,7 @@
                 data-elementdelay="0.06" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300"
-                style="z-index: 5; max-width: auto; font-weight:900; font-size:120px; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; letter-spacing:-5px; color:#222; max-height: auto; white-space: nowrap;">Nós entregamos </div>
+                style="z-index: 5; max-width: auto; font-weight:900; font-size:120px; letter-spacing:-5px; color:#222; max-height: auto; white-space: nowrap;">Nós entregamos </div>
             
             <!-- LAYER NR. 2 -->
             <div class="tp-caption sfl tp-resizeme text-color-primary" 
@@ -162,21 +177,7 @@
                 data-elementdelay="0.07" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 6; max-width: auto; font-weight:900; font-size:150px; letter-spacing:-7px; max-height: auto; white-space: nowrap;">Excelência </div>
-            
-            <!-- LAYER NR. 3 -->
-            <div class="tp-caption sfb tp-resizeme" 
-                data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="120" 
-                data-speed="500" 
-                data-start="1900" 
-                data-easing="Power3.easeInOut" 
-                data-splitin="none" 
-                data-splitout="none" 
-                data-elementdelay="0.1" 
-                data-endelementdelay="0.1" 
-                data-endspeed="300" 
-                style="z-index: 7; font-size:28px; color:#1f1f1f; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; max-width: auto; max-height: auto; white-space: nowrap;">Ideias - Desafios - Inovação </div>
+                style="z-index: 6; max-width: auto; font-weight:900; font-size:150px; letter-spacing:-7px; max-height: auto; white-space: nowrap;">Excelência. </div>
           </li>
           <!-- SLIDE  -->
           <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
@@ -185,32 +186,18 @@
             <!-- LAYERS --> 
             
             <!-- LAYER NR. 1 -->
-            <div class="tp-caption sfb tp-resizeme text-color-primary" 
+            <div class="tp-caption sfr tp-resizeme text-color-primary" 
                 data-x="center" data-hoffset="0" 
                 data-y="center" data-voffset="-100" 
-                data-speed="600" 
+                data-speed="500" 
                 data-start="1000" 
                 data-easing="Power3.easeInOut" 
-                data-splitin="none" 
+                data-splitin="chars" 
                 data-splitout="none" 
-                data-elementdelay="0.07" 
+                data-elementdelay="0.06" 
                 data-endelementdelay="0.1" 
-                data-endspeed="300" 
-                style="z-index: 5; font-size:90px; font-weight:900; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; text-align:center; line-height:60px; max-width: auto; max-height: auto; white-space: nowrap;">Ellite Festa</div>
-            
-            <!-- LAYER NR. 2 -->
-            <div class="tp-caption sfb tp-resizeme" 
-                data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="-10" 
-                data-speed="600" 
-                data-start="1300" 
-                data-easing="Power3.easeInOut" 
-                data-splitin="none" 
-                data-splitout="none" 
-                data-elementdelay="0.1" 
-                data-endelementdelay="0.1" 
-                data-endspeed="300" 
-                style="z-index: 6; font-size:28px; color:#1f1f1f; text-shadow: rgba(0, 0, 0, 0.63) 0px 0px 10px; text-align:center; line-height:38px; max-width: auto; max-height: auto; white-space: nowrap;">Para quem não aceita nada menos do que o que O MELHOR. </div>
+                data-endspeed="300"
+                style="z-index: 5; max-width: auto; font-weight:900; font-size:120px; letter-spacing:-5px; color:#222; max-height: auto; white-space: nowrap;">Nós somos a Ellite!</div>
           </li>
         </ul>
       </div>
@@ -220,44 +207,28 @@
   <!-- Content -->
   <div id="content">
 
-    <!-- SERVICES -->
-    <section id="ser" class="padding-top-50 padding-bottom-50"> 
+    <!-- SOBRE NÓS -->
+    <section id="abt" class="padding-top-100 padding-bottom-100"> 
       <!-- HEADING -->
-      <!-- <div class="heading-block text-center margin-bottom-100">
-        <h2>Nossos diferenciais</h2>
+      <div class="heading-block text-center margin-bottom-60">
+        <h2>Quem Somos</h2>
         <hr>
-      </div> -->
+      </div>
       
       <!-- Services -->
-      <ul class="row">
-        <li class="col-sm-4">
-          <div class="services">
-            <div class="service-part"> <i class="flaticon-monitor animate fadeInLeft" data-wow-delay="0.4s"></i>
-              <h6>Faça seu Orçamento</h6>
-              <p>Preencha um pequeno formulário que lhe retornaremos em breve.</p>
-            </div>
+      <div class="row"> 
+          <!-- Basic Plan -->
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <p class="about-text">
+              Ellite Festa veio para fazer a diferença no mercado de consultoria e planejamento de eventos. Somos uma empresa movida a inovação e desafios, sempre buscando novidades para aprimorar nossos serviços e de forma estritamente profissional proporcionar um dia inesquecível para nossos clientes! Estamos aqui para lhe ajudar a tornar o seu sonho uma realidade.
+            </p>
           </div>
-        </li>
-        <li class="col-sm-4">
-          <div class="services">
-            <div class="service-part"> <i class="flaticon-customer  animate fadeInLeft" data-wow-delay="0.6s"></i>
-              <h6>Nossos Pombinhos</h6>
-              <p>Conheça um pouco dos nossos clientes e seus pedidos para o grande dia.</p>
-            </div>
-          </div>
-        </li>
-        <li class="col-sm-4">
-          <div class="services">
-            <div class="service-part"> <i class="flaticon-group-of-students  animate fadeInLeft" data-wow-delay="0.4s"></i>
-              <h6>Trabalhe Conosco</h6>
-              <p>Faça parte da nossa equipe, nosso banco de talentos está sempre aberto.</p>
-            </div>
-          </div>
-        </li>
-      </ul>
+          <div class="col-md-3"></div>
+      </div>
     </section>
 
-    <!-- ABOUT -->
+    <!-- ASSESSORIA -->
     <section class="about"> 
       
       <!-- Right Background -->
@@ -267,7 +238,7 @@
         <!-- Left Content -->
         <div class="main-half-layout-container half_right_layout">
           <div class="about-us-con">
-            <h3>Fatos Sobre Nós</h3>
+            <h3>ASSESSORIA</h3>
             <p>Sabe aquele detalhe que geralmente passa despercebido e que você só lembra quando já virou um problema logo encima da hora?<br> Pois é, deixa com a gente!</p>
             
             <!-- About Content -->
@@ -326,7 +297,7 @@
       </div>
     </section>
 
-    <!-- Fatos sobre Nós -->
+    <!-- FATOS / CONTATORES -->
     <section class="dark our-banafits padding-top-100 padding-bottom-100">
       <div class="container">
         
@@ -354,7 +325,7 @@
       </div>
     </section>
     
-    <!-- Nossa Equipe -->
+    <!-- EQUIPE -->
     <section id="team" class="our-team padding-top-100 padding-bottom-100">
       <div class="container">
         <div class="heading-block text-center margin-bottom-100">
@@ -436,7 +407,7 @@
       </div>
     </section>
     
-    <!-- Portfolio -->
+    <!-- GALERIA -->
     <section id="wrk" class="portfolio padding-bottom-100">
       <div class="container"> 
         <!-- Heading Block -->
@@ -615,11 +586,11 @@
       </div>
     </section>
 
-    <!-- Testimonial -->
-    <section class="dark testimonial padding-bottom-60 padding-top-100">
+    <!-- TESTEMUNHOS -->
+    <section id="test" class="dark testimonial padding-bottom-100 padding-top-100">
       <div class="container"> 
         <!-- Heading Block -->
-        <div class="heading-block text-center margin-bottom-100">
+        <div class="heading-block text-center margin-bottom-30">
           <h2>O que nossos clientes dizem ?</h2>
           <hr>
         </div>
@@ -628,27 +599,34 @@
         <div id="testi-slide"> 
           <!-- Slide -->
           <div class="item"> 
-            <!-- avatar --> 
-            <i class="icon-profile-male"></i>
-            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra.</p>
-            <h6>Adnan Arif</h6>
-            <span>CEO Webicode</span> </div>
+            <!-- avatar <i class="icon-profile-male"></i> -->             
+            <p>Passando aqui pra agradecer por toda acessória e carinho que vocês tiveram conosco,  😻muito obrigada por tudo , não mediu esforços pra fazer nosso dia mais lindo e inesquecível  . Vocês são demais , todos atenciosos  e cuida da gente de uma maneira muito especial , deixando tudo de uma maneira mais leve ✨😻Obrigada Ellite Cerimonial!!!</p>
+            <h6>Paula & Charles</h6>
+            <span>Casamento - 19/01/2019</span> </div>
           
           <!-- Slide -->
           <div class="item"> 
-            <!-- avatar --> 
-            <i class="icon-profile-male"></i>
-            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra. </p>
-            <h6>Jennifer Aniston</h6>
-            <span>Web Designer</span> </div>
+            <p>Oie Yuri boa tarde 🤗 vim aqui agradecer você e sua equipe pela dedicação , companheirismo e organização no meu casamento ,eu e Alef ficamos muito felizes pelo trabalho de vocês ❤</p>
+            <h6>Paloma & Alef</h6>
+            <span>Casamento - 04/03/2019</span> </div>
           
           <!-- Slide -->
           <div class="item"> 
-            <!-- avatar --> 
-            <i class="icon-profile-male"></i>
-            <p>Aliquam rutrum, purus ac facilisis malesuada, quam augue vehicula nisl, in malesuada orci nisi auctor quam. Vivamus scelerisque elit in orci lacinia pharetra. </p>
-            <h6>Adnan Arif</h6>
-            <span>Front End Developer</span> </div>
+            <p>Gostaríamos de agradecer todos da equipe ellite cerimonial por ter feito todo perfeito em meu casamento,foi além do que eu imaginava, agradeço pela dedicação que vcs estiveram com os meus convidados, pelo carinho q vcs tiveram com agente, muitas pessoas elogiaram vcs, vcs estão de parabéns por tudo. E a decoração ficou um arraso.obg ellite cerimonial por tudo que vcs fizeram pra nós, foi um casamento perfeito.desde já agradeço. Que Deus continue abençoando vcs 😘❤😍😍😍</p>
+            <h6>Debley & Alan</h6>
+            <span>Casamento - 17/11/2018</span> </div>
+          
+          <!-- Slide -->
+          <div class="item"> 
+            <p>Agradecendo pelo insta, mas ja agradeci pelo Whatsapp rsrs vcs são um verdadeiro sucesso, profissionais,competentes, fizeram do meu dia de noiva excelente, qria ser noiva todo sábado so pra ser pararicada assim!! Obrigada por tudo super indico smp 😍🔝</p>
+            <h6>Renata & Douglas</h6>
+            <span>Casamento - 08/12/2018</span> </div>
+          
+          <!-- Slide -->
+          <div class="item"> 
+            <p>Yuri passando para agradecer pela assistência no meu dia, realmente surpreendeu a todos, tanto vc quanto as meninas, foi tudo maravilhoso👏🏻👏🏻👏🏻😍😍😍  e com certeza indicaria o seu trabalho pra outras pessoas, como disse ficamos surpreendidos e não tenho nada a reclamar, obrigada ❤❤</p>
+            <h6>Isabela & Eduardo</h6>
+            <span>Casamento - 22/02/2019</span> </div>
         </div>
       </div>
     </section>
@@ -660,7 +638,7 @@
         <a href="https://api.whatsapp.com/send?phone=5531992941447&text=Ol%C3%A1%2c%20gostaria%20de%20conhecer%20mais%20sobre%20os%20seus%20servi%C3%A7os!" target="_blank" class="btn margin-top-50">ABRIR O WHATSAPP</a> </div>
     </section>
     
-    <!-- Nosso Aplicativo -->
+    <!-- APLICATIVO -->
     <section class="studio-intro padding-top-100 padding-bottom-100">
       <div class="container">
         <div class="row"> 
@@ -671,7 +649,7 @@
             
             <!-- Main Heading -->
             <div class="heading-block text-left margin-top-10">
-              <h2>Nosso Aplicativo</h2>
+              <h2>Já conhece nosso App?</h2>
               <p>Aproveite as vantagens do nosso app e facilite os seus planos para o grande dia!</p>
             </div>
             
@@ -721,17 +699,17 @@
       </div>
     </section>
     
-    <!-- Clients img -->
-    <section class="light-gry-bg clients-img padding-top-100 padding-bottom-100">
+    <!-- FORNECEDORES -->
+    <section id="fnc" class="light-gry-bg clients-img padding-top-100 padding-bottom-100">
       <div class="container">
         <!-- Heading Block -->
         <div class="heading-block text-center margin-bottom-40">
-          <h2>Nossos Fornecedores</h2>
+          <h2>Fornecedores Favoritos</h2>
           <hr>
         </div>
 
         <div class="clint-sli">
-          <div><img src="images/fornecedores/img-1.png" alt="" ></div>
+          <div><a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow"><img src="images/fornecedores/img-1.png" alt="" ></a></div>
           <div><img src="images/fornecedores/img-2.png" alt="" ></div>
           <div><img src="images/fornecedores/img-3.png" alt="" ></div>
           <div><img src="images/fornecedores/img-4.png" alt="" ></div>
@@ -740,61 +718,93 @@
       </div>
     </section>
     
-    <!-- pricing -->
+    <!-- PLANOS -->
     <section id="price" class="pricing dark style-2 padding-top-100  padding-bottom-80">
       <div class="container"> 
         
         <!-- Heading Block -->
         <div class="heading-block text-center margin-bottom-100">
-          <h2>Nossos Planos </h2>
+          <h2>Planos & Vantagens</h2>
           <hr>
         </div>
+
         <div class="row"> 
           <!-- Basic Plan -->
-          <div class="col-md-4 margin-bottom-30">
+          <div class="col-md-3 margin-bottom-30">
             <ul class="pricing-table">
-              <li class="title">BASIC
-                <div class="price"><span class="currency">R$</span>1.000<span class="period">em até 3x.</span></div>
+              <li class="title text-copper">BRONZE
+                <div class="price"><span class="currency">R$</span>1.200</div> <!-- <span class="period">em até 3x.</span> -->
               </li>
-              <li class="bullet-item">Cerimônia completa</li>
-              <li class="bullet-item">Convites</li>
-              <li class="bullet-item">Brinde Surpresa</li>
-              <li class="bullet-item">1K petalas de Rosas</li>
-              <li class="bullet-item">Chuva de Prata</li>
-              <li class="cta-button"><a class="btn dark" href="#.">CONTRATAR</a></li>
+              <li class="bullet-item">2 Cerimonialistas</li>
+              <li class="bullet-item">1 Coordenador</li>
+              <li class="bullet-item">*Chuva de Prata</li>
+              <li class="bullet-item">*Lágrimas de Alegria</li>
+              <li class="bullet-item">*Gravata para brincadeira</li>
+              <li class="cta-button"><a class="btn btn-copper" href="#.">CONTRATAR</a></li>
             </ul>
           </div>
           
-          <!-- Business Plan -->
-          <div class="col-md-4 margin-bottom-30">
+          <!-- Basic Plan -->
+          <div class="col-md-3 margin-bottom-30">
             <ul class="pricing-table">
-              <li class="title">TBT
-                <div class="price"><span class="currency">R$</span>1.500<span class="period">em até 6x.</span></div>
+              <li class="title text-silver">PRATA
+              <div class="price"><span class="currency">R$</span>1.600</div> <!-- <span class="period">em até 3x.</span> -->
               </li>
-              <li class="bullet-item">Cerimônia completa</li>
-              <li class="bullet-item">Convites</li>
-              <li class="bullet-item">Brinde Surpresa</li>
-              <li class="bullet-item">1K petalas de Rosas</li>
-              <li class="bullet-item">Chuva de Prata</li>
-              <li class="cta-button"><a class="btn dark" href="#.">CONTRATAR</a></li>
+              <li class="bullet-item">3 Cerimonialistas</li>
+              <li class="bullet-item">1 Coordenador</li>
+              <li class="bullet-item">*Chuva de Prata</li>
+              <li class="bullet-item">*Lágrimas de Alegria</li>
+              <li class="bullet-item">*Gravata para brincadeira</li>
+              <li class="cta-button"><a class="btn btn-silver" href="#.">CONTRATAR</a></li>
             </ul>
           </div>
           
           <!-- Premium Plan -->
-          <div class="col-md-4 margin-bottom-30">
+          <div class="col-md-3 margin-bottom-30">
             <ul class="pricing-table">
-              <li class="title">TOPÍSSIMO
-                <div class="price"><span class="currency">R$</span>2.000<span class="period">em até 6x.</span></div>
+              <li class="title text-gold">OURO
+              <div class="price"><span class="currency">R$</span>2.000</div> <!-- <span class="period">em até 3x.</span> -->
               </li>
-              <li class="bullet-item">Cerimônia completa</li>
-              <li class="bullet-item">Convites</li>
-              <li class="bullet-item">Brinde Surpresa</li>
-              <li class="bullet-item">1K petalas de Rosas</li>
-              <li class="bullet-item">Chuva de Prata</li>
-              <li class="cta-button"><a class="btn dark" href="#.">CONTRATAR</a></li>
+              <li class="bullet-item">3 Cerimonialistas</li>
+              <li class="bullet-item">1 Coordenador</li>
+              <li class="bullet-item">1 Segurança</li>
+              <li class="bullet-item">*Chuva de Prata</li>
+              <li class="bullet-item">*Lágrimas de Alegria</li>
+              <li class="bullet-item">*Gravata para brincadeira</li>
+              <li class="cta-button"><a class="btn btn-gold" href="#.">CONTRATAR</a></li>
+            </ul>
+          </div>
+          
+          <!-- Premium Plan -->
+          <div class="col-md-3 margin-bottom-30">
+            <ul class="pricing-table">
+              <li class="title text-diamond">DIAMANTE
+              <div class="price"><span class="currency">R$</span>3.500</div> <!-- <span class="period">em até 3x.</span> -->
+              </li>
+              <li class="bullet-item">4 Cerimonialistas</li>
+              <li class="bullet-item">1 Coordenador</li>
+              <li class="bullet-item">2 Seguranças</li>
+              <li class="bullet-item">1 Aux. Toilet</li>
+              <li class="bullet-item">*Chuva de Prata</li>
+              <li class="bullet-item">*Lágrimas de Alegria</li>
+              <li class="bullet-item">*Gravata para brincadeira</li>
+              <li class="cta-button"><a class="btn btn-diamond" href="#.">CONTRATAR</a></li>
             </ul>
           </div>
         </div>
+
+        <div class="row"> 
+          <!-- Basic Plan -->
+          <div class="col-md-12 margin-bottom-30">
+            <ul class="pricing-table">
+              <li class="title" style="padding-bottom: 10px;">Observações Importantes!</li>
+              <li class="bullet-item">Formas de Pagamento: Dinheiro, Cartão de Débito, Cartão de Crédito e Boleto.</li>
+              <li class="bullet-item">Para parcelamento, os valores deverão ser consultados.</li>
+              <li class="bullet-item">Em todos os pacotes, a reserva da data é feita mediante o pagamento de 50% do valor.</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -806,14 +816,39 @@
     <div class="container"> 
       
       <!-- Heading Block -->
-      <div class="heading-block text-center margin-bottom-100">
+      <div class="heading-block text-center margin-bottom-30">
         <h2>Fale Conosco</h2>
         <hr>
       </div>
     </div>
-    
+
     <!-- Contact Info -->
     <div class="container">
+
+      <!-- Services -->
+      <ul class="row  margin-bottom-30">        
+        <li class="col-sm-6">
+          <a href="pages/orcamento.html" class="cbp-singlePage link" rel="nofollow">
+            <div class="services">
+              <div class="service-part"> <i class="flaticon-monitor animate fadeInLeft" data-wow-delay="0.4s"></i>
+                <h6>Faça seu Orçamento</h6>
+                <p>Preencha um pequeno formulário que lhe retornaremos em breve.</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-sm-6">
+          <a href="pages/trabalhe_conosco.html" class="cbp-singlePage link" rel="nofollow">
+            <div class="services">
+              <div class="service-part"> <i class="flaticon-group-of-students  animate fadeInLeft" data-wow-delay="0.4s"></i>
+                <h6>Trabalhe Conosco</h6>
+                <p>Faça parte da nossa equipe, nosso banco de talentos está sempre aberto.</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+
       <div class="row"> 
         
         <!-- Contact Form -->

@@ -166,7 +166,12 @@ a {
 a:hover, a:focus {
 }
 .text-color-primary {
-	color: #D9B06A !important;
+	color: #d9b06a !important;
+	text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
+}
+.text-color-secondary {
+	color: #1f1f1f !important;
+	text-shadow: rgba(0, 0, 0, 0.65) 0px 0px 100px;
 }
 .border-bottom-1 {
 	border-bottom: 1px solid #ededed;
@@ -1776,23 +1781,26 @@ a.big-border:hover {
 .single-progect .project-info {
 	margin-top: 0px;
 	margin: 0px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	display: inline-block;
 	width: 100%;
 	border-top: 1px solid #e5e9ea;
 	border-bottom: 1px solid #e5e9ea;
+}
+.single-progect .project-info li:first-child {
+	border-left: 1px solid #d9b06a;
 }
 .single-progect .project-info li {
 	float: left;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	width: 25%;
-	border-right: 1px solid #e5e9ea;
+	border-right: 1px solid #d9b06a;
 }
-.single-progect .project-info li:nth-last-child(2) {
+.single-progect .project-info {
 	border: none !important;
 }
-.single-progect .project-info li:nth-last-child(1) {
+.single-progect .project-info {
 	border: none !important;
 	padding: 0px;
 }
@@ -2680,6 +2688,7 @@ a.big-border:hover {
 	display: inline-block;
 	width: 30px;
 	font-size: 18px;
+	text-shadow: none !important;
 }
 .footer .office-info p {
 	line-height: 40px;
@@ -2863,7 +2872,7 @@ a.big-border:hover {
 	background-color: transparent;
 	border-bottom: none;
 	color: #343538;
-	padding-left: 50px;
+	padding: 0 50px;
 	font-weight: 400;
 	line-height: 46px;
 	font-family: 'Montserrat', sans-serif;
@@ -4059,6 +4068,13 @@ body.no-scroll {
 	width: 33.3333% !important;
 }
 
+.about-text {
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+}
 .logo img {
 	width: 300px;
 	height: auto;
@@ -4073,4 +4089,56 @@ section.dark h1,
 section.dark h2,
 section.dark h3 {
 	color: #fff;
+}
+
+.text-copper {
+	color: #813E24 !important;	
+}
+.btn-copper {
+	color: #fff !important;
+	background: #813E24 !important;
+}
+.text-silver {
+	color: #9fa1a3 !important;	
+}
+.btn-silver {
+	color: #fff !important;
+	background: #9fa1a3 !important;
+}
+.text-gold {
+	color: #D9B06A !important;	
+}
+.btn-gold {
+	color: #fff !important;
+	background: #D9B06A !important;
+}
+.text-diamond {
+	color: #23ab8c !important;	
+}
+.btn-diamond {
+	color: #fff !important;
+	background: #23ab8c !important;
+}
+
+
+.justify-content-around {
+    -ms-flex-pack: distribute!important;
+    justify-content: space-around!important;
+}
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.project-contact {
+	font-size: 120%;
+	margin: 0px 10px 50px 10px;
+	line-height: 130%;
+	color: #343538 !important;
+}
+.project-contact i {
+	font-size: 130%;
+	margin-right: 10px;
+	color: #D9B06A !important;
 }

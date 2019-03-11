@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="single-progect text-center">
+    <div class="row">
+      <div class="col-md-10 center-auto">
+
+        <div class="row">
+          <div class="col-md-12 text-left margin-bottom-20">
+            <h4 class="margin-bottom-20">Olá amigo(a)!</h4>
+            <p>Estamos ansiosos em lhe atender. <br /> Por favor, preencha o formulário abaixo e lhe retornaremos o mais rápido possível!</p>
+          </div>
+            <div class="col-md-12">              
+              <!-- Contact Form -->
+              <div class="contact margin-bottom-100">                
+                <!-- Success Msg -->
+                <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Obrigado. Retornaremos em breve.</div>
+                
+                <!-- FORM -->
+                <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false">
+                  <ul class="row">
+                    <li class="col-sm-6">
+                      <label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Nome">
+                      </label>
+                    </li>
+                    <li class="col-sm-6">
+                      <label>
+                        <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+                      </label>
+                    </li>
+                    <li class="col-sm-6">
+                      <label>
+                        <input type="text" class="form-control" name="celular" id="celular" placeholder="Celular">
+                      </label>
+                    </li>
+                    <li class="col-sm-6">
+                      <label>
+                        <input type="date" class="form-control" name="data" id="data" placeholder="Data do Evento">
+                      </label>
+                    </li>
+                    <li class="col-sm-6">
+                      <label>
+                        <input type="text" class="form-control" name="local" id="local" placeholder="Local, se já escolhido.">
+                      </label>
+                    </li>
+                    <li class="col-sm-6">
+                      <label>
+                        <input type="text" class="form-control" name="convidados" id="convidados" placeholder="Quantos convidados?">
+                      </label>
+                    </li>
+                    <li class="col-sm-12">
+                      <button type="submit" value="submit" id="btn_submit" onClick="proceed();">ENVIAR</button>
+                    </li>
+                  </ul>
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

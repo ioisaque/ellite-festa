@@ -61,7 +61,7 @@ jQuery('.tp-banner').show().revolution({
 /*-----------------------------------------------------------------------------------*/
 $('.counter').counterUp({
     delay: 10,
-    time: 300
+    time: 1000
 });
 /*-----------------------------------------------------------------------------------*/
 /* 	CASE SLIDER
@@ -128,7 +128,7 @@ $("#testi-slide").owlCarousel({
     items : 1,
 	autoplay:true,
 	loop:true,
-	autoplayTimeout:5000,
+	autoplayTimeout:8000,
 	autoplayHoverPause:true,
 	singleItem	: true,
     navigation : false,
@@ -171,9 +171,10 @@ $('#js-grid-awesome-work').cubeportfolio({
     displayTypeSpeed: 400,
 // singlePage popup
     singlePageDelegate: '.cbp-singlePage',
-    singlePageDeeplinking: true,
-    singlePageStickyNavigation: true,
+    singlePageDeeplinking: false,
+    singlePageStickyNavigation: false,
     singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
+    singlePageCounter: '',
     singlePageCallback: function(url, element) {
 // to update singlePage content use the following method: this.updateSinglePage(yourContent)
     var t = this;
@@ -187,7 +188,7 @@ $('#js-grid-awesome-work').cubeportfolio({
          t.updateSinglePage(result);
          })
 .fail(function() {
-          t.updateSinglePage('AJAX Error! Please refresh the page!');
+          t.updateSinglePage('AJAX Error! Por favor, recarregue a página.');
      });
     },
 });
