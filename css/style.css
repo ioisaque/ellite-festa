@@ -4120,10 +4120,28 @@ section.dark h3 {
 	background: #23ab8c !important;
 }
 
+.btn-whatsapp {
+	width: 35rem;
+	color: #fff !important;
+	font-size: 2rem;
+	background: #1ebea5 !important;
+}
 
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
 .justify-content-around {
     -ms-flex-pack: distribute!important;
     justify-content: space-around!important;
+}
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.align-self-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
 }
 .d-flex {
     display: -webkit-box!important;
@@ -4139,6 +4157,7 @@ section.dark h3 {
 }
 .project-contact i {
 	font-size: 130%;
-	margin-right: 10px;
 	color: #D9B06A !important;
 }
+
+i { margin-right: 5px; }

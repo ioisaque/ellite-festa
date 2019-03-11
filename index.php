@@ -7,7 +7,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-        <meta name="robots" content="index, follow" />    
+      <meta name="robots" content="index, follow" />    
       <meta name="author" content="Isaque Costa" />
       
       <!-- META CLIENT -->
@@ -297,7 +297,7 @@
       </div>
     </section>
 
-    <!-- FATOS / CONTATORES -->
+    <!-- FATOS / CONTADORES -->
     <section class="dark our-banafits padding-top-100 padding-bottom-100">
       <div class="container">
         
@@ -324,91 +324,11 @@
         </div>
       </div>
     </section>
-    
-    <!-- EQUIPE -->
-    <section id="team" class="our-team padding-top-100 padding-bottom-100">
-      <div class="container">
-        <div class="heading-block text-center margin-bottom-100">
-          <h2>Nossa Equipe</h2>
-          <hr>
-        </div>
-        
-        <!-- TEAM -->
-        <div class="team-slide with-nav middle-nav"> 
-          
-          <!-- Member -->
-          <div class="item">
-            <article> 
-              <!-- abatar -->
-              <div class="avatar"> <img class="img-responsive" src="images/equipe/img-1.jpg" alt="" > 
-                <!-- Team hover -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <h6>MARIA LUKIA</h6>
-                    <p>Products Manager</p>
-                    <div class="social-icons"> <a href="#."><i class="fa fa-instagram"></i></a> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <!-- Member -->
-          <div class="item">
-            <article> 
-              <!-- abatar -->
-              <div class="avatar"> <img class="img-responsive" src="images/equipe/img-2.jpg" alt="" > 
-                <!-- Team hover -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <h6>MARIA LUKIA</h6>
-                    <p>Products Manager</p>
-                    <div class="social-icons"> <a href="#."><i class="fa fa-instagram"></i></a> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <!-- Member -->
-          <div class="item">
-            <article> 
-              <!-- abatar -->
-              <div class="avatar"> <img class="img-responsive" src="images/equipe/img-3.jpg" alt="" > 
-                <!-- Team hover -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <h6>MARIA LUKIA</h6>
-                    <p>Products Manager</p>
-                    <div class="social-icons"> <a href="#."><i class="fa fa-instagram"></i></a> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          
-          <!-- Member -->
-          <div class="item">
-            <article> 
-              <!-- abatar -->
-              <div class="avatar"> <img class="img-responsive" src="images/equipe/img-4.jpg" alt="" > 
-                <!-- Team hover -->
-                <div class="team-hover">
-                  <div class="position-center-center">
-                    <h6>MARIA LUKIA</h6>
-                    <p>Products Manager</p>
-                    <div class="social-icons"> <a href="#."><i class="fa fa-instagram"></i></a> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-twitter"></i></a> </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
+
+    <!-- EQUIPE - YOU CAN FIND IT ON disabled.html -->
     
     <!-- GALERIA -->
-    <section id="wrk" class="portfolio padding-bottom-100">
+    <section id="wrk" class="portfolio padding-top-100 padding-bottom-100">
       <div class="container"> 
         <!-- Heading Block -->
         <div class="heading-block text-center margin-bottom-100">
@@ -635,69 +555,10 @@
     <section class="let-talk-sec" data-stellar-background-ratio="0.5">
       <div class="container">
         <h1>Vamos conversar sobre o seu grande dia!</h1>
-        <a href="https://api.whatsapp.com/send?phone=5531992941447&text=Ol%C3%A1%2c%20gostaria%20de%20conhecer%20mais%20sobre%20os%20seus%20servi%C3%A7os!" target="_blank" class="btn margin-top-50">ABRIR O WHATSAPP</a> </div>
+        <a href="https://api.whatsapp.com/send?phone=5531992941447&text=Ol%C3%A1%2c%20gostaria%20de%20conhecer%20mais%20sobre%20os%20seus%20servi%C3%A7os!" target="_blank" class="btn btn-whatsapp margin-top-50"> <i class="ion-social-whatsapp"></i> ABRIR O WHATSAPP</a> </div>
     </section>
     
     <!-- APLICATIVO -->
-    <section class="studio-intro padding-top-100 padding-bottom-100">
-      <div class="container">
-        <div class="row"> 
-          
-          <!-- Iphone Image -->
-          <div class="col-md-5 text-right"> <img class="bef-img img-responsive animate fadeInLeft" data-wow-delay="0.4s" src="images/iphone-img.png" alt=""> </div>
-          <div class="col-md-7"> 
-            
-            <!-- Main Heading -->
-            <div class="heading-block text-left margin-top-10">
-              <h2>Já conhece nosso App?</h2>
-              <p>Aproveite as vantagens do nosso app e facilite os seus planos para o grande dia!</p>
-            </div>
-            
-            <!-- Icon List -->
-            <div class="icon-style icon-color padding-right-0">
-              <ul class="row">
-                
-                <!-- Icon List -->
-                <li class="col-md-6">
-                  <article>
-                    <div class="icon animate fadeInLeft" data-wow-delay="0.4s"> <i class="lnr lnr-inbox"></i> </div>
-                    <h4>Orçamento Rápido</h4>
-                    <p>Many desktop publishing packages and web page editors now use.</p>
-                  </article>
-                </li>
-                
-                <!-- Services -->
-                <li class="col-md-6">
-                  <article>
-                    <div class="icon animate fadeInLeft" data-wow-delay="0.4s" > <i class="lnr lnr-cog"></i> </div>
-                    <h4>Do seu Jeito!</h4>
-                    <p>Many desktop publishing packages and web page editors now use.</p>
-                  </article>
-                </li>
-                
-                <!-- Services -->
-                <li class="col-md-6">
-                  <article>
-                    <div class="icon animate fadeInLeft" data-wow-delay="0.4s"> <i class="lnr lnr-bubble"></i> </div>
-                    <h4>Chat Online</h4>
-                    <p>Many desktop publishing packages and web page editors now use.</p>
-                  </article>
-                </li>
-                
-                <!-- Services -->
-                <li class="col-md-6">
-                  <article>
-                    <div class="icon animate fadeInLeft" data-wow-delay="0.4s"> <i class="lnr lnr-cart"></i> </div>
-                    <h4>Nossos Fornecedores</h4>
-                    <p>Many desktop publishing packages and web page editors now use.</p>
-                  </article>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     
     <!-- FORNECEDORES -->
     <section id="fnc" class="light-gry-bg clients-img padding-top-100 padding-bottom-100">
@@ -740,7 +601,7 @@
               <li class="bullet-item">*Chuva de Prata</li>
               <li class="bullet-item">*Lágrimas de Alegria</li>
               <li class="bullet-item">*Gravata para brincadeira</li>
-              <li class="cta-button"><a class="btn btn-copper" href="#.">CONTRATAR</a></li>
+              <li class="cta-button"><a class="btn btn-copper" href="https://api.whatsapp.com/send?phone=5531992941447&text=Olá%2c%20gostaria%20de%20conhecer%20mais%20sobre%20o%20PACOTE%20BRONZE!">CONTRATAR</a></li>
             </ul>
           </div>
           
@@ -755,7 +616,7 @@
               <li class="bullet-item">*Chuva de Prata</li>
               <li class="bullet-item">*Lágrimas de Alegria</li>
               <li class="bullet-item">*Gravata para brincadeira</li>
-              <li class="cta-button"><a class="btn btn-silver" href="#.">CONTRATAR</a></li>
+              <li class="cta-button"><a class="btn btn-silver" href="https://api.whatsapp.com/send?phone=5531992941447&text=Olá%2c%20gostaria%20de%20conhecer%20mais%20sobre%20o%20PACOTE%20PRATA!">CONTRATAR</a></li>
             </ul>
           </div>
           
@@ -771,7 +632,7 @@
               <li class="bullet-item">*Chuva de Prata</li>
               <li class="bullet-item">*Lágrimas de Alegria</li>
               <li class="bullet-item">*Gravata para brincadeira</li>
-              <li class="cta-button"><a class="btn btn-gold" href="#.">CONTRATAR</a></li>
+              <li class="cta-button"><a class="btn btn-gold" href="https://api.whatsapp.com/send?phone=5531992941447&text=Olá%2c%20gostaria%20de%20conhecer%20mais%20sobre%20o%20PACOTE%20OURO!">CONTRATAR</a></li>
             </ul>
           </div>
           
@@ -788,7 +649,7 @@
               <li class="bullet-item">*Chuva de Prata</li>
               <li class="bullet-item">*Lágrimas de Alegria</li>
               <li class="bullet-item">*Gravata para brincadeira</li>
-              <li class="cta-button"><a class="btn btn-diamond" href="#.">CONTRATAR</a></li>
+              <li class="cta-button"><a class="btn btn-diamond" href="https://api.whatsapp.com/send?phone=5531992941447&text=Olá%2c%20gostaria%20de%20conhecer%20mais%20sobre%20o%20PACOTE%20DIAMANTE!">CONTRATAR</a></li>
             </ul>
           </div>
         </div>
