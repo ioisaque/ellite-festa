@@ -569,12 +569,32 @@
           <hr>
         </div>
 
-        <div class="clint-sli">
-          <div><a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow"><img src="images/fornecedores/img-1.png" alt="" ></a></div>
-          <div><img src="images/fornecedores/img-2.png" alt="" ></div>
-          <div><img src="images/fornecedores/img-3.png" alt="" ></div>
-          <div><img src="images/fornecedores/img-4.png" alt="" ></div>
-          <div><img src="images/fornecedores/img-5.png" alt="" ></div>
+        <div class="clint-sli fornecedores">
+          <div class="has-image-hover">
+            <a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow">
+              <img class="image" src="images/fornecedores/img-1.png" alt="" >
+              <img class="image-hover" src="images/fornecedores/img-1-h.png" alt="" ></a>
+          </div>
+          <div class="has-image-hover">
+            <a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow">
+              <img class="image" src="images/fornecedores/img-2.png" alt="" >
+              <img class="image-hover" src="images/fornecedores/img-2-h.png" alt="" ></a>
+          </div>
+          <div class="has-image-hover">
+            <a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow">
+              <img class="image" src="images/fornecedores/img-3.png" alt="" >
+              <img class="image-hover" src="images/fornecedores/img-3-h.png" alt="" ></a>
+          </div>
+          <div class="has-image-hover">
+            <a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow">
+              <img class="image" src="images/fornecedores/img-4.png" alt="" >
+              <img class="image-hover" src="images/fornecedores/img-4-h.png" alt="" ></a>
+          </div>
+          <div class="has-image-hover">
+            <a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow">
+              <img class="image" src="images/fornecedores/img-5.png" alt="" >
+              <img class="image-hover" src="images/fornecedores/img-5-h.png" alt="" ></a>
+          </div>
         </div>
       </div>
     </section>

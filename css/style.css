@@ -4161,3 +4161,25 @@ section.dark h3 {
 }
 
 i { margin-right: 5px; }
+
+.fornecedores .image {
+	transition: all .6s;
+}
+.fornecedores .image-hover {
+	transition: all .6s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(0.8);
+}
+.fornecedores .has-image-hover:hover .image {
+	visibility: hidden;
+}
+
+.fornecedores .has-image-hover:hover .image-hover {
+	opacity: 1;
+	visibility: visible;
+	transform: none;
+}
