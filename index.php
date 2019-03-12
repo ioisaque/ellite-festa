@@ -106,7 +106,7 @@
             <!-- LAYER NR. 1 -->
             <div class="tp-caption sfr tp-resizeme text-color-primary" 
                 data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="-200" 
+                data-y="center" data-voffset="-120" 
                 data-speed="500" 
                 data-start="1000" 
                 data-easing="Power3.easeInOut" 
@@ -120,7 +120,7 @@
             <!-- LAYER NR. 2 -->
             <div class="tp-caption sfl tp-resizeme text-color-secondary" 
                 data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="-80" 
+                data-y="center" data-voffset="0" 
                 data-speed="500" 
                 data-start="1500" 
                 data-easing="Power3.easeInOut" 
@@ -134,7 +134,7 @@
             <!-- LAYER NR. 3 -->
             <div class="tp-caption sfb tp-resizeme text-color-primary" 
                 data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="50" 
+                data-y="center" data-voffset="140" 
                 data-speed="500" 
                 data-start="2300" 
                 data-easing="Power3.easeInOut" 
@@ -154,7 +154,7 @@
             <!-- LAYER NR. 1 -->
             <div class="tp-caption sfr tp-resizeme text-color-secondary"
                 data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="-100" 
+                data-y="center" data-voffset="-35" 
                 data-speed="500" 
                 data-start="1000" 
                 data-easing="Power3.easeInOut" 
@@ -168,7 +168,7 @@
             <!-- LAYER NR. 2 -->
             <div class="tp-caption sfl tp-resizeme text-color-primary" 
                 data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="20" 
+                data-y="center" data-voffset="100" 
                 data-speed="500" 
                 data-start="1500" 
                 data-easing="Power3.easeInOut" 
@@ -188,7 +188,7 @@
             <!-- LAYER NR. 1 -->
             <div class="tp-caption sfr tp-resizeme text-color-primary" 
                 data-x="center" data-hoffset="0" 
-                data-y="center" data-voffset="-100" 
+                data-y="center" data-voffset="0" 
                 data-speed="500" 
                 data-start="1000" 
                 data-easing="Power3.easeInOut" 
@@ -238,14 +238,14 @@
         <!-- Left Content -->
         <div class="main-half-layout-container half_right_layout">
           <div class="about-us-con">
-            <h3>ASSESSORIA</h3>
-            <p>Sabe aquele detalhe que geralmente passa despercebido e que você só lembra quando já virou um problema logo encima da hora?<br> Pois é, deixa com a gente!</p>
+            <h2>ASSESSORIA</h2>
+            <h5>Sabe aquele detalhe que geralmente passa despercebido e que você só lembra quando já virou um problema logo encima da hora?<br> Pois é, deixa com a gente!</h>
             
             <!-- About Content -->
             <div class="panel-group accordion padding-top-20" id="accordion"> 
               
               <!-- According 1 -->
-              <div class="panel panel-default">
+              <!-- <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> Neque porro quisquam est, qui dolorem ipsum</a> </h4>
                 </div>
@@ -254,10 +254,10 @@
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
                   </div>
                 </div>
-              </div>
+              </div> -->
               
               <!-- According 2 -->
-              <div class="panel panel-default">
+              <!-- <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed"> Sed quia non numquam eius modi tempora incidunt</a> </h4>
                 </div>
@@ -266,10 +266,10 @@
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
                   </div>
                 </div>
-              </div>
+              </div> -->
               
               <!-- According 3 -->
-              <div class="panel panel-default">
+              <!-- <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed"> Vel illum qui dolorem eum fugiat quo voluptas</a> </h4>
                 </div>
@@ -278,10 +278,10 @@
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
                   </div>
                 </div>
-              </div>
+              </div> -->
               
               <!-- According 4 -->
-              <div class="panel panel-default">
+              <!-- <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour" class="collapsed"> Neque porro quisquam est, qui dolorem ipsum</a> </h4>
                 </div>
@@ -290,7 +290,8 @@
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
                   </div>
                 </div>
-              </div>
+              </div> -->
+
             </div>
           </div>
         </div>
@@ -344,18 +345,14 @@
             <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> Todos
               <div class="cbp-filter-counter"></div>
             </div>
-            <div data-filter=".brand" class="cbp-filter-item"> 15 ANOS
-              <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".web" class="cbp-filter-item"> CASAMENTOS
-              <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".mob-app" class="cbp-filter-item">FORMATURAS
-              <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".photo" class="cbp-filter-item"> EMPRESARIAL
-              <div class="cbp-filter-counter"></div>
-            </div>
+              <div data-filter=".15anos" class="cbp-filter-item">
+                15 ANOS
+                <div class="cbp-filter-counter"></div>
+              </div>
+              <div data-filter=".casamento" class="cbp-filter-item">
+                CASAMENTO
+                <div class="cbp-filter-counter"></div>
+              </div>
           </div>
         </div>
         
@@ -363,15 +360,15 @@
         <div id="js-grid-awesome-work" class="no-space col-4 text-left"> 
           
           <!-- Item 1 -->
-          <div class="cbp-item col-md-6 web mob-app photo ui">
+          <div class="cbp-item col-md-6 casamento">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/img-1.jpg" alt=""> 
+              <article> <img src="images/portfolio/edrys_amaury/img-1.jpg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">65/48/2045 <span>Rebecca & Isaque</span> <a href="images/portfolio/img-1.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
+                      <h4 class="text-white">--/--/---- <span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-1.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -380,15 +377,15 @@
           </div>
           
           <!-- Item 2 -->
-          <div class="cbp-item col-md-3 brand web mob-app">
+          <div class="cbp-item col-md-3 15anos">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/img-2.jpg" alt=""> 
+              <article> <img src="images/portfolio/taina/img-2.jpeg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">65/48/2045<span>Allan & Luiza</span> <a href="images/portfolio/img-2.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
+                      <h4 class="text-white">20/10/2018<span>15 Anos de Tainá</span> <a href="images/portfolio/taina/img-2.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -397,15 +394,15 @@
           </div>
           
           <!-- Item 3 -->
-          <div class="cbp-item col-md-3 web photo ui">
+          <div class="cbp-item col-md-3 casamento">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/img-3.jpg" alt=""> 
+              <article> <img src="images/portfolio/barbara_mauricelio/img-3.jpeg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">65/48/2045 <span>Rebecca & Isaque</span> <a href="images/portfolio/img-3.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
+                      <h4 class="text-white">23/06/2018<span>Bárbara & Mauricélio</span> <a href="images/portfolio/barbara_mauricelio/img-3.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -414,15 +411,15 @@
           </div>
           
           <!-- Item 4 -->
-          <div class="cbp-item col-md-6 mob-app photo ui">
+          <div class="cbp-item col-md-6 casamento">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/img-4.jpg" alt=""> 
+              <article> <img src="images/portfolio/edrys_amaury/img-2.jpg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">65/48/2045 <span>Allan & Luiza</span> <a href="images/portfolio/img-8.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
+                      <h4 class="text-white">--/--/----<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-2.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -431,15 +428,15 @@
           </div>
           
           <!-- Item 5 -->
-          <div class="cbp-item col-md-3 mob-app photo">
+          <div class="cbp-item col-md-3 casamento">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/img-5.jpg" alt=""> 
+              <article> <img src="images/portfolio/edrys_amaury/img-5.jpg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">65/48/2045 <span>Hugo & Alice</span> <a href="images/portfolio/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
+                      <h4 class="text-white">--/--/----<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -448,15 +445,15 @@
           </div>
           
           <!-- Item 6 -->
-          <div class="cbp-item col-md-6 brand web mob-app">
+          <div class="cbp-item col-md-6 casamento">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/img-6.jpg" alt=""> 
+              <article> <img src="images/portfolio/barbara_mauricelio/img-6.jpeg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">65/48/2045 <span>Yuri & Mariza</span> <a href="images/portfolio/img-7.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
+                      <h4 class="text-white">23/06/2018<span>Bárbara & Mauricélio</span> <a href="images/portfolio/barbara_mauricelio/img-7.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -465,15 +462,49 @@
           </div>
           
           <!-- Item 7 -->
-          <div class="cbp-item col-md-6 brand web mob-app">
+          <div class="cbp-item col-md-6 15anos">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/img-7.jpg" alt=""> 
+              <article> <img src="images/portfolio/taina/img-4.jpeg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">65/48/2045 <span>Yuri & Mariza</span> <a href="images/portfolio/img-7.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
+                      <h4 class="text-white">20/10/2018 <span>15 Anos de Tainá</span> <a href="images/portfolio/taina/img-4.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>          
+          
+          <!-- Item 8 -->
+          <div class="cbp-item col-md-6 casamento">
+            <div class="port-item"> 
+              <!-- article img -->
+              <article> <img src="images/portfolio/natalia_vitor/img-5.jpeg" alt=""> 
+                <!-- Portfolio Hover -->
+                <div class="port-hover">
+                  <div class="position-bottom">
+                    <div class="animated fadeInUp">
+                      <h4 class="text-white">07/09/2018 <span>Natália & Vitor</span> <a href="images/portfolio/natalia_vitor/img-5.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Item 9 -->
+          <div class="cbp-item col-md-6 15anos">
+            <div class="port-item"> 
+              <!-- article img -->
+              <article> <img src="images/portfolio/taina/img-7.jpeg" alt=""> 
+                <!-- Portfolio Hover -->
+                <div class="port-hover">
+                  <div class="position-bottom">
+                    <div class="animated fadeInUp">
+                      <h4 class="text-white">20/10/2018 <span>15 Anos de Tainá</span> <a href="images/portfolio/taina/img-7.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -481,22 +512,40 @@
             </div>
           </div>
           
-          <!-- Item 8 -->
-          <div class="cbp-item col-md-3 mob-app photo">
+          <!-- Item 10 -->
+          <div class="cbp-item col-md-6 casamento">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/img-8.jpg" alt=""> 
+              <article> <img src="images/portfolio/natalia_vitor/img-4.jpeg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">65/48/2045 <span>Hugo & Alice</span> <a href="images/portfolio/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> <a href="ajax-work/project1.html" class="cbp-singlePage link" rel="nofollow"><i class="icon-link"></i> </a> </h4>
+                      <h4 class="text-white">07/09/2018 <span>Natália & Vitor</span> <a href="images/portfolio/natalia_vitor/img-4.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
               </article>
             </div>
           </div>
+          
+          <!-- Item 11 -->
+          <div class="cbp-item col-md-6 casamento">
+            <div class="port-item"> 
+              <!-- article img -->
+              <article> <img src="images/portfolio/edrys_amaury/img-4.jpg" alt=""> 
+                <!-- Portfolio Hover -->
+                <div class="port-hover">
+                  <div class="position-bottom">
+                    <div class="animated fadeInUp">
+                      <h4 class="text-white">--/--/----<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-4.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
         </div>
         
         <!-- LOAD MORE -->
@@ -567,6 +616,7 @@
         <div class="heading-block text-center margin-bottom-40">
           <h2>Fornecedores Favoritos</h2>
           <hr>
+          <p class="text-gold margin-top-30">Conheça mais sobre eles, clicando nas logos abaixo.</p>
         </div>
 
         <div class="clint-sli fornecedores">
