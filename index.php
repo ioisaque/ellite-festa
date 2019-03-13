@@ -18,7 +18,7 @@
         <title>Ellite Festa - Assessoria e Eventos</title>
 
         <!-- DEFAULT FAVICONS -->
-        <?php $icon = file_get_contents('http://api.isaquecosta.com/websites/defaults/getFavicon.php'); ?>
+        <?php $icon = file_get_contents('http://cdn.isaquecosta.com.br/pages/defaults/favicon.php'); ?>
       
         <link rel="shortcut icon" href="<?=$icon;?>">
         <link rel="apple-touch-icon" href="<?=$icon;?>">
@@ -56,7 +56,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <?=file_get_contents('https://api.isaquecosta.com/websites/slim_scroll.php');?>
+    <?=file_get_contents('http://cdn.isaquecosta.com.br/pages/defaults/slimScroll.php');?>
   </head>
 <body>
 
@@ -851,7 +851,7 @@
     <!-- Rights -->
     <div class="rights">
       <div class="container">
-        <?=file_get_contents('http://api.isaquecosta.com/websites/defaults/getFooter.php?type=light');?>
+        <?=file_get_contents('http://cdn.isaquecosta.com.br/pages/defaults/footer.php?type=light');?>
       </div>
     </div>
   </footer>
@@ -901,6 +901,11 @@
   <!-- SLIDER REVOLUTION 4.x SCRIPTS  --> 
   <script type="text/javascript" src="rs-plugin/js/jquery.tp.t.min.js"></script> 
   <script type="text/javascript" src="rs-plugin/js/jquery.tp.min.js"></script> 
+
+  <!-- BLOCK CUSTOM -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="jquery.counterup.min.js"></script>
+
   <script src="js/main.js"></script>
 </body>
 </html>
