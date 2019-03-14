@@ -75,11 +75,10 @@
             <ul>
               <li class="scroll active"><a href="#hme">Início </a></li>
               <li class="scroll"><a href="#abt">Sobre </a> </li>
-              <li class="scroll"><a href="#team">Equipe </a></li>
-              <li class="scroll"><a href="#wrk">Portfólio </a></li>
+              <li class="scroll"><a href="#wrk">Galeria </a></li>
               <li class="scroll"><a href="#test">Testemunhos </a></li>
               <li class="scroll"><a href="#fnc">Fornecedores </a></li>
-              <li class="scroll"><a href="#price">Planos </a></li>
+              <li class="scroll"><a href="#price">Pacotes </a></li>
               <li class="scroll"><a href="#contact">Contato</a></li>
             </ul>
           </div>
