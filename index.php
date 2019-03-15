@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html class="no-js" lang="pt-br">
   <head>
     <!-- HEAD DEFAULTS - START -->
@@ -237,35 +237,41 @@
         <!-- Left Content -->
         <div class="main-half-layout-container half_right_layout">
           <div class="about-us-con">
-            <h2>ASSESSORIA</h2>
-            <h5>Sabe aquele detalhe que geralmente passa despercebido e que você só lembra quando já virou um problema logo encima da hora?<br> Pois é, deixa com a gente!</h>
+            <h3>ASSESSORIA ELLITE</h3>
+            <h6>Sabe aquele detalhe que geralmente passa despercebido e que você só lembra quando já virou um problema logo encima da hora?<br> Pois é, deixa com a gente!</h6>
             
             <!-- About Content -->
             <div class="panel-group accordion padding-top-20" id="accordion"> 
               
               <!-- According 1 -->
-              <!-- <div class="panel panel-default">
+              <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> Neque porro quisquam est, qui dolorem ipsum</a> </h4>
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Para que serve e por que eu iria querer contratar uma Assessoria?</a> </h4>
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse in">
                   <div class="panel-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
+                    <p>O trabalho de uma Assessora envolve a gestão/organização do evento como um todo. Para isso é necessário que essa profissional trace o perfil do casal e assim ela pode indicar profissionais que tem o mesmo perfil, deixando o evento único e com a carinha dos noivos.
+                    <br><br>
+                    A Assessora é o braço direito da noiva e é quem cuida de todos os detalhes que só as noivas entendem. É função da Assessora identificar, visualizar o sonho da noiva e conseguir coloca-lo no papel para que os outros profissionais de casamento (decoração, buffet e etc) consigam transformar esse sonho em realidade.
+                    <br><br>
+                    Por isso a Assessora precisa conhecer muito bem os noivos e pensar exatamente como a noiva pensa, no dia do evento ela representará a noiva, seus desejos e suas vontades, além de resolver todo e qualquer probleminha que apareça de última hora sem gerar estresse para noiva. Aliás, resolver pepino é o que mais uma Assessora faz.</p>
                   </div>
                 </div>
-              </div> -->
+              </div>
               
               <!-- According 2 -->
-              <!-- <div class="panel panel-default">
+              <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed"> Sed quia non numquam eius modi tempora incidunt</a> </h4>
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">Assessoria x Cerimonial</a> </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nisl vitae sodales aliquam. Cras bibendum mauris vel consequat tempus. Quisque arcu felis, scelerisque eget egestas a, efficitur ullamcorper dolor. </p>
+                    <p>O <b>Assessor</b> é aquela pessoa que é especialista em um tema e está preparado para ajudar, apoiar tecnicamente quem contrata seus serviços. Ou seja, o assessor de eventos conhece a fundo a rotina de organizar e viabilizar uma celebração, podendo listar tudo o que é indispensável, e a partir daí se adaptar ao que espera e deseja o cliente, respeitando o pressuposto disponível.
+                    <br><br>
+                    O <b>Cerimonialista</b> é aquele que está preparado para fazer cumprir as formalidades de determinada cerimônia, por exemplo, no caso de um casamento, quem senta ao lado de quem na Igreja, quando entra a noiva, orientar sobre as normas de etiqueta, etc. Normalmente, seu trabalho se concentra no dia da festa, coordenando todos os envolvidos para fazer cumprir o protocolo.</p>
                   </div>
                 </div>
-              </div> -->
+              </div>
               
               <!-- According 3 -->
               <!-- <div class="panel panel-default">
@@ -794,7 +800,7 @@
               <ul class="row">
                 <li class="col-sm-6">
                   <label>
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Nome">
+                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
                   </label>
                 </li>
                 <li class="col-sm-6">
@@ -804,13 +810,18 @@
                 </li>
                 <li class="col-sm-12">
                   <label>
-                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Sua mensagem para nós..."></textarea>
+                    <textarea class="form-control" name="mensagem" id="mensagem" rows="5" placeholder="Sua mensagem para nós..."></textarea>
                   </label>
                 </li>
                 <li class="col-sm-12">
                   <button type="submit"  value="submit" id="btn_submit" onClick="proceed();">ENVIAR</button>
                 </li>
               </ul>
+
+                <input type="hidden" name="name" value="Elltie Festa">
+                <input type="hidden" name="mailto" value="contato@ellitefesta.com.br">
+                <input type="hidden" name="subject" value="Novo contato via SITE!">
+
             </form>
           </div>
         </div>
@@ -903,7 +914,6 @@
 
   <!-- BLOCK CUSTOM -->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-  <script src="jquery.counterup.min.js"></script>
 
   <script src="js/main.js"></script>
 </body>
