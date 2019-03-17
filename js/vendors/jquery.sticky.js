@@ -24,51 +24,6 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 * Date: Nov 26, 2013
 */(function(e){"use strict";e.fn.counterUp=function(t){var n=e.extend({time:400,delay:10},t);return this.each(function(){var t=e(this),r=n,i=function(){var e=[],n=r.time/r.delay,i=t.text(),s=/[0-9]+,[0-9]+/.test(i);i=i.replace(/,/g,"");var o=/^[0-9]+$/.test(i),u=/^[0-9]+\.[0-9]+$/.test(i),a=u?(i.split(".")[1]||[]).length:0;for(var f=n;f>=1;f--){var l=parseInt(i/n*f);u&&(l=parseFloat(i/n*f).toFixed(a));if(s)while(/(\d+)(\d{3})/.test(l.toString()))l=l.toString().replace(/(\d+)(\d{3})/,"$1,$2");e.unshift(l)}t.data("counterup-nums",e);t.text("0");var c=function(){t.text(t.data("counterup-nums").shift());if(t.data("counterup-nums").length)setTimeout(t.data("counterup-func"),r.delay);else{delete t.data("counterup-nums");t.data("counterup-nums",null);t.data("counterup-func",null)}};t.data("counterup-func",c);setTimeout(t.data("counterup-func"),r.delay)};t.waypoint(i,{offset:"100%",triggerOnce:!0})})}})(jQuery);
 
-
-
-/*-----------------------------------------------------------------------------------*/
-/*    CONTACT FORM
-/*-----------------------------------------------------------------------------------*/
-function checkmail(input){
-  var pattern1=/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-  	if(pattern1.test(input)){ return true; }else{ return false; }}     
-    function proceed(){
-    var name = document.getElementById("nome");
-		var email = document.getElementById("email");
-		var msg = document.getElementById("mensagem");
-		var errors = "";
-		if(name.value == ""){ 
-		name.className = 'error';
-	  	  return false;}    
-		  else if(email.value == ""){
-		  email.className = 'error';
-		  return false;}
-		    else if(checkmail(email.value)==false){
-		        alert('Favor informar um e-mail válido.');
-		        return false;}
-		   else if(msg.value == ""){
-		        msg.className = 'error';
-		        return false;}
-		   else 
-		  {
-	$.ajax({
-		type: "POST",
-		url: "https://api.isaquecosta.com/mail/send.php",
-		crossDomain: true,
-		data: $("#contact_form").serialize(),
-		dataType: 'json',
-		success: function(response){
-			if(response.type == 'success'){
-				$('#contact_form').fadeOut(1000);
-				$('#contact_message').fadeIn(1000);
-					document.getElementById("contact_message");
-				return true;
-			}else{
-				alert(response.message);
-			}
-		}
-	});
-}};
 /*-----------------------------------------------------------------------------------*/
 /*	Go TO TOP
 /*-----------------------------------------------------------------------------------*/

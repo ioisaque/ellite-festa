@@ -10,42 +10,49 @@
             </div>
               <div class="col-md-12">              
                 <!-- Contact Form -->
-                <div class="contact margin-bottom-100">                
-                  <!-- Success Msg -->
-                  <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Obrigado. Retornaremos em breve.</div>
+                <div class="contact margin-bottom-100">    
+
+                <!-- Response Messages -->
+                <div class="hiSuccessMSG"> <i class="fa fa-paper-plane-o"></i>Obrigado. Retornaremos em breve.</div>
+                <div class="hiErrorMSG"> <i class="fa fa-times"></i>Desculpe. Ocorreu um erro ao enviar seus dados.</div>
                   
                   <!-- FORM -->
-                  <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false">
+                  <form class="hiForm contact-form" action="" method="post">
                     <ul class="row">
                       <li class="col-sm-6">
                         <label>
-                          <input type="text" class="form-control" name="name" id="name" placeholder="Nome">
+                          <input type="text" class="form-control" name="name" placeholder="Nome" required>
                         </label>
                       </li>
                       <li class="col-sm-6">
                         <label>
-                          <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+                          <input type="text" class="form-control" name="email" placeholder="E-mail" required>
                         </label>
                       </li>
                       <li class="col-sm-6">
                         <label>
-                          <input type="text" class="form-control" name="celular" id="celular" placeholder="Celular">
+                          <input type="text" class="form-control" name="celular" placeholder="Celular" required>
                         </label>
                       </li>
                       <li class="col-sm-6">
                         <label>
-                          <input type="text" class="form-control" name="profissao" id="profissao" placeholder="Profissão">
+                          <input type="text" class="form-control" name="profissao" placeholder="Profissão" required>
                         </label>
                       </li>
                       <li class="col-sm-12">
                           <label>
-                            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Sua mensagem para nós..."></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="Sua mensagem para nós..." required></textarea>
                           </label>
                         </li>
                       <li class="col-sm-12">
-                        <button type="submit" value="submit" id="btn_submit" onClick="proceed();">ENVIAR</button>
+                        <button type="submit" value="submit">ENVIAR</button>
                       </li>
                     </ul>
+
+                    <input type="hidden" name="name" value="Elltie Festa">
+                    <input type="hidden" name="mailto" value="contato@ellitefesta.com.br">
+                    <input type="hidden" name="subject" value="Novo talento cadastrado via SITE!">
+
                   </form>
                 </div>
               </div>
@@ -54,4 +61,6 @@
       </div>
     </div>
   </div>
-  
+
+  <!-- JavaScripts --> 
+  <script type="text/javascript" src="http://cdn.isaquecosta.com.br/lib/js/hiAjaxMail.js"></script>

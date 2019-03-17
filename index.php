@@ -420,13 +420,13 @@
           </div>
           
           <!-- Item VIDEO -->
-          <!-- <div class="cbp-item col-md-3 casamento">
+          <div class="cbp-item col-md-3 casamento">
             <div class="port-item">
               <article>
-                <iframe width="100%" height="425px" src="https://www.youtube.com/embed/hwYoFR1sGGQ?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="425px" src="https://www.youtube.com/embed/hwYoFR1sGGQ?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </article>
             </div>
-          </div> -->
+          </div>
           
           <!-- Item 4 -->
           <div class="cbp-item col-md-6 casamento">
@@ -822,29 +822,30 @@
           <div class="contact">
             <h6>Mande-nos uma Mensagem</h6>
             
-            <!-- Success Msg -->
-            <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Obrigado. Retornaremos em breve.</div>
+            <!-- Response Messages -->
+            <div class="hiSuccessMSG"> <i class="fa fa-paper-plane-o"></i>Obrigado. Retornaremos em breve.</div>
+            <div class="hiErrorMSG"> <i class="fa fa-times"></i>Desculpe. Ocorreu um erro ao enviar seus dados.</div>
             
             <!-- FORM -->
-            <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false">
+            <form class="hiForm contact-form" method="post" action="">
               <ul class="row">
                 <li class="col-sm-6">
                   <label>
-                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
+                    <input type="text" class="form-control" name="nome" placeholder="Nome" required>
                   </label>
                 </li>
                 <li class="col-sm-6">
                   <label>
-                    <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+                    <input type="text" class="form-control" name="email" placeholder="E-mail" required>
                   </label>
                 </li>
                 <li class="col-sm-12">
                   <label>
-                    <textarea class="form-control" name="mensagem" id="mensagem" rows="5" placeholder="Sua mensagem para nós..."></textarea>
+                    <textarea class="form-control" name="mensagem" rows="5" placeholder="Sua mensagem para nós..." required></textarea>
                   </label>
                 </li>
                 <li class="col-sm-12">
-                  <button type="submit"  value="submit" id="btn_submit" onClick="proceed();">ENVIAR</button>
+                  <button type="submit" value="submit">ENVIAR</button>
                 </li>
               </ul>
 
@@ -944,7 +945,7 @@
 
   <!-- BLOCK CUSTOM -->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-
+  <script type="text/javascript" src="http://cdn.isaquecosta.com.br/lib/js/hiAjaxMail.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

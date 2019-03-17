@@ -3360,7 +3360,7 @@ a.big-border:hover {
 /*=======================================================
 			CONTACT FORM
 ========================================================*/
-.contact #contact_form {
+.contact .contact-form {
 	text-align: center;
 }
 footer .social-icons {
@@ -3390,7 +3390,7 @@ footer .social-icons a:hover {
 	position: absolute;
 	color: red;
 }
-.success-msg {
+.hiSuccessMSG {
 	background: #fff;
 	border: 1px solid #ABD0A8;
 	color: #589051;
@@ -3402,18 +3402,36 @@ footer .social-icons a:hover {
 	border-radius: 4px;
 	display: none;
 }
-.success-msg i {
+.hiSuccessMSG i {
 	padding: 10px;
 	border-radius: 50%;
 	border: 1px solid #ABD0A8;
 	margin-right: 10px;
 }
-#contact_form p {
+.hiErrorMSG {
+	background: #fff;
+	border: 1px solid #b10f0f;
+	color: #b10f0f;
+	margin-bottom: 30px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 11px 16px;
+	border-radius: 4px;
+	display: none;
+}
+.hiErrorMSG i {
+	padding: 10px;
+	border-radius: 50%;
+	border: 1px solid #b10f0f;
+	margin-right: 10px;
+}
+.contact-form p {
 	text-align: left;
 	margin-bottom: 10px;
 	margin-top: 0px;
 }
-#contact_form input {
+.contact-form input {
 	display: inline-block;
 	width: 100%;
 	height: 40px;
@@ -3427,7 +3445,7 @@ footer .social-icons a:hover {
 	border-radius: 0px;
 	background: none;
 	color: #d9b06a;
-	padding: 0px;
+	padding: 0 1rem;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #666666;
 	-webkit-transition: all 0.4s ease-in-out;
@@ -3436,7 +3454,7 @@ footer .social-icons a:hover {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
-#contact_form .form-control {
+.contact-form .form-control {
 	border: none;
 	box-shadow: none;
 	border-radius: 0px;
@@ -3451,7 +3469,7 @@ footer .social-icons a:hover {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
-#contact_form textarea {
+.contact-form textarea {
 	height: 120px !important;
 	background: none;
 	padding: 0px;
@@ -3460,7 +3478,7 @@ footer .social-icons a:hover {
 	padding-top: 10px !important;
 	font-size: 16px;
 }
-#contact_form .btn {
+.contact-form .btn {
 	text-transform: uppercase;
 }
 .contact-form .tittle {
@@ -3497,7 +3515,7 @@ footer .social-icons a:hover {
 	position: relative;
 	padding: 10px 20px;
 }
-#contact_form .form-control:focus {
+.contact-form .form-control:focus {
 	border-bottom: 2px solid #D9B06A;
 }
 .contact-form button, .contact-form input[type="submit"] {
