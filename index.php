@@ -358,6 +358,10 @@
                 CASAMENTO
                 <div class="cbp-filter-counter"></div>
               </div>
+              <div data-filter=".formatura" class="cbp-filter-item">
+                FORMATURA
+                <div class="cbp-filter-counter"></div>
+              </div>
           </div>
         </div>
         
@@ -373,7 +377,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">--/--/---- <span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-1.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                      <h4 class="text-white">23/03/2018<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-1.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -382,7 +386,7 @@
           </div>
           
           <!-- Item 2 -->
-          <div class="cbp-item col-md-3 15anos">
+          <div class="cbp-item col-md-6 15anos">
             <div class="port-item"> 
               <!-- article img -->
               <article> <img src="images/portfolio/taina/img-2.jpeg" alt=""> 
@@ -390,7 +394,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">20/10/2018<span>15 Anos de Tainá</span> <a href="images/portfolio/taina/img-2.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                      <h4 class="text-white">20/10/2018 <span>15 Anos de Tainá</span> <a href="images/portfolio/taina/img-2.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -415,6 +419,15 @@
             </div>
           </div>
           
+          <!-- Item VIDEO -->
+          <!-- <div class="cbp-item col-md-3 casamento">
+            <div class="port-item">
+              <article>
+                <iframe width="100%" height="425px" src="https://www.youtube.com/embed/hwYoFR1sGGQ?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </article>
+            </div>
+          </div> -->
+          
           <!-- Item 4 -->
           <div class="cbp-item col-md-6 casamento">
             <div class="port-item"> 
@@ -424,7 +437,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">--/--/----<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-2.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                      <h4 class="text-white">23/03/2018<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-2.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -441,7 +454,7 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">--/--/----<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                      <h4 class="text-white">23/03/2018<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-5.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -450,15 +463,15 @@
           </div>
           
           <!-- Item 6 -->
-          <div class="cbp-item col-md-6 casamento">
+          <div class="cbp-item col-md-3 15anos">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/barbara_mauricelio/img-6.jpeg" alt=""> 
+              <article> <img src="images/portfolio/yasmin/img-1.jpeg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">23/06/2018<span>Bárbara & Mauricélio</span> <a href="images/portfolio/barbara_mauricelio/img-7.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                      <h4 class="text-white">26/01/2019<span>15 Anos de Yasmin</span> <a href="images/portfolio/yasmin/img-1.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -501,15 +514,15 @@
           </div>
 
           <!-- Item 9 -->
-          <div class="cbp-item col-md-6 15anos">
+          <div class="cbp-item col-md-6 casamento">
             <div class="port-item"> 
               <!-- article img -->
-              <article> <img src="images/portfolio/taina/img-7.jpeg" alt=""> 
+              <article> <img src="images/portfolio/barbara_mauricelio/img-6.jpeg" alt=""> 
                 <!-- Portfolio Hover -->
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">20/10/2018 <span>15 Anos de Tainá</span> <a href="images/portfolio/taina/img-7.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                      <h4 class="text-white">23/06/2018<span>Bárbara & Mauricélio</span> <a href="images/portfolio/barbara_mauricelio/img-7.jpeg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -543,7 +556,24 @@
                 <div class="port-hover">
                   <div class="position-bottom">
                     <div class="animated fadeInUp">
-                      <h4 class="text-white">--/--/----<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-4.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                      <h4 class="text-white">23/03/2018<span>Edrys & Amaury</span> <a href="images/portfolio/edrys_amaury/img-4.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          
+          <!-- Item 11 -->
+          <div class="cbp-item col-md-6 casamento">
+            <div class="port-item"> 
+              <!-- article img -->
+              <article> <img src="images/portfolio/paloma_alef/img-6.jpg" alt=""> 
+                <!-- Portfolio Hover -->
+                <div class="port-hover">
+                  <div class="position-bottom">
+                    <div class="animated fadeInUp">
+                      <h4 class="text-white">04/03/2018<span>Paloma & Alef</span> <a href="images/portfolio/paloma_alef/img-6.jpg" class="cbp-lightbox" data-title=""><i class="icon-magnifier"></i></a> </h4>
                     </div>
                   </div>
                 </div>
@@ -626,12 +656,12 @@
 
         <div class="clint-sli fornecedores">
           <div class="has-image-hover">
-            <a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow">
+            <a href="pages/isaquecosta.html" class="cbp-singlePage link">
               <img class="image" src="images/fornecedores/img-1.png" alt="" >
               <img class="image-hover" src="images/fornecedores/img-1-h.png" alt="" ></a>
           </div>
           <div class="has-image-hover">
-            <a href="pages/isaquecosta.html" class="cbp-singlePage link" rel="nofollow">
+            <a href="pages/entrontesuaviagem.html" class="cbp-singlePage link" rel="nofollow">
               <img class="image" src="images/fornecedores/img-2.png" alt="" >
               <img class="image-hover" src="images/fornecedores/img-2-h.png" alt="" ></a>
           </div>

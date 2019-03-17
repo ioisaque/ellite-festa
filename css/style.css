@@ -4182,3 +4182,5 @@ i { margin-right: 5px; }
 	visibility: visible;
 	transform: none;
 }
+
+iframe { display: block; overflow-y: hidden; }
